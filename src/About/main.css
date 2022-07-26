@@ -1,0 +1,26 @@
+.main{
+    margin: 59px auto;
+    width: 85%;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+}
+
+.one{
+    background-color: indigo;
+    grid-column: 1/-1;
+    grid-column: 1/-1;
+}
+
+.two{
+    background-color: blue;
+}
+
+.three{
+    background-color: green;
+}
+
+.four{
+    background-color: yellow;
+}
